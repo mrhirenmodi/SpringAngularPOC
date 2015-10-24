@@ -1,0 +1,23 @@
+
+
+ <div style="padding-left:130px;padding-right:200px;"  ng-controller="HomeCtrl">
+   <h1>Hello, world!</h1>
+  <p>This is simple angular ng-view and ng-route tutorial to demonstrate single page web app development.</p>
+
+<table BORDER=1 BORDERCOLOR=RED>
+   <tr>
+      <th>ID</th>
+      <th>Names</th>
+      <th>Rating</th>
+   </tr>
+   
+   <tr ng-repeat = "msg	in messages | orderBy: 'rating':false">
+      <td>{{ msg.id }}</td>
+      <td>{{ msg.name | ProperCase}}</td>
+       <td>{{ msg.rating }}</td>
+   </tr>
+</table>
+
+   <input type="button" value="Read tutorial"  ng-click="fetchData()" />
+  
+</div>
