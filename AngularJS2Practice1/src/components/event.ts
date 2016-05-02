@@ -1,5 +1,6 @@
 import {Component, Output, EventEmitter} from 'angular2/core';
 
+
 @Component({
     selector: 'child-event-data-binding',
     template: `
