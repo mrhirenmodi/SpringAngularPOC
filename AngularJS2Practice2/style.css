@@ -1,0 +1,8 @@
+div.error, span.error {
+    color: red;
+}
+
+label.column {
+  width:60px;
+  display: inline-block;
+}
